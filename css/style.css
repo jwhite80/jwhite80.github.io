@@ -8,6 +8,7 @@ body{
   font-family: 'Alegreya', serif;
   padding-left: 5%;
   padding-right: 5%;
+  text-align: center;
 }
 
 /* CSS for the main navigation */
@@ -15,6 +16,10 @@ body{
   display: inline;
   padding-right: 10px;
   font-size: 1.05em;
+}
+ul {
+  list-style: none;
+  padding: 0 25% 0 25%;
 }
 
 img{
@@ -24,6 +29,7 @@ img{
 
 h1, h2 {
   color: #864446;
+  padding: 0 25% 0 25%;
 }
 
 /* Typography */
