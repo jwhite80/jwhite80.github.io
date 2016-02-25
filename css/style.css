@@ -38,19 +38,13 @@ h1, h2 {
 nav a {
   color: #CB9650;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: underline;
+  transition: all 0.5s;
 }
 
 a:hover {
-  color: red;
-  animation-name: navColorTransform;
-  animation-duration: 1s;
-/*   background-color: yellow; */
+  color: #864446;
 }
-
-@keyframes navColorTransform {
-    from {color: #CB9650;}
-    to {color: red;}
 /* Homepage */
 
 /* Resume */
