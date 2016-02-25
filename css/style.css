@@ -1,17 +1,108 @@
 /* Main Stylesheet */
-
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
 /* Global Styling */
 
 body{
-  background: #999;
+  background: #1A2332;
+  color: #CB9650;
+  font-family: 'Alegreya', serif;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* CSS for the main navigation */
+.MainNav li {
+  display: inline;
+  padding-right: 10px;
+  font-size: 1.05em;
 }
 
 img{
-  width: 700px;
+  width: 70%;
+}
+
+h1, h2 {
+  color: #864446;
 }
 
 /* Typography */
 
+/* Navigation */
+nav a {
+  color: #CB9650;
+  text-transform: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  animation-name: navColorTransform;
+  animation-duration: 1s;
+/*   background-color: yellow; */
+}
+
+@keyframes navColorTransform {
+    from {color: #CB9650;}
+    to {color: red;}
 /* Homepage */
 
 /* Resume */
+
+/* Bio */
+
+/*
+
+
+body {
+  
+}
+
+a {
+  text-decoration: none;
+  color: #FFD500;
+}
+
+.color-1 {
+  background: #CB9650;
+}
+
+.color-2 {
+  background: #864446;
+}
+
+.color-3 {
+  background: #1A2332;
+}
+
+.pattern-1 {
+  background: url("http://image.naldzgraphics.net/2011/03/1-pattern.jpg");
+}
+
+.pattern-2 {
+  background: url("http://www.featurepics.com/FI/Thumb300/20090708/Black-Blue-Pattern-1241158.jpg");
+  background-size: contain;
+}
+
+.pattern-3 {
+  background: url("http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2013/03/metal+texture+pattern+20.jpg");
+}
+
+.imagery-1 img{
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.imagery-2 img{
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.imagery-3 img{
+  max-width: 300px;
+  max-height: 200px;
+}
+
+button {
+  background: #960000;
+  color: #FFD500;
+}*/
