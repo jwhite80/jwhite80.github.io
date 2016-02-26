@@ -11,6 +11,10 @@ body{
   text-align: center;
 }
 
+p, figcaption {
+  color: #CB9650;
+}
+
 /* CSS for the main navigation */
 .MainNav li {
   display: inline;
@@ -29,7 +33,6 @@ img{
 
 h1, h2 {
   color: #864446;
-  padding: 0 25% 0 25%;
 }
 
 /* Typography */
@@ -44,6 +47,29 @@ nav a {
 
 a:hover {
   color: #864446;
+}
+
+.div1 figcaption, 
+.div2 figcaption,
+.div3 figcaption,
+.div4 ul,
+.div5 ul{
+  height: 0px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.div1:hover figcaption, 
+.div2:hover figcaption,
+.div3:hover figcaption{
+  height: 100px;
+  opacity: 1;
+}
+
+.div4:hover ul,
+.div5:hover ul{
+  height: 170px;
+  opacity: 1;
 }
 /* Homepage */
 
