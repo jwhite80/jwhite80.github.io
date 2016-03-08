@@ -58,7 +58,7 @@ ul {
   font-size: 1em;
 }
 
-p img{
+.profileIMG {
   width: 50%;
   border-radius: 50%;
 }
