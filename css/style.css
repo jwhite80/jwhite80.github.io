@@ -21,9 +21,42 @@ p, figcaption {
   padding-right: 10px;
   font-size: 1.25em;
 }
+
 ul {
+/*  remove the dots in the list  */
   list-style: none;
-  padding: 0 25% 0 25%;
+/*  Center list items by removing the indent  */
+  padding-left: 10%;
+  padding-right: 10%;
+  display: inline-block;
+/*   padding-top: -50px; */
+  
+}
+
+.LH1, .LH2, .LH3, .LH4, .LH5 {
+  color: #864446;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.list1, .list2, .list3, .list4, .list5 {
+/* .LH2 + .list2 { */
+  position: relative;
+  height: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 0px;
+  transition: all 0.2s;
+}
+
+.LH1:hover + .list1,
+.LH2:hover + .list2,
+.LH3:hover + .list3,
+.LH4:hover + .list4,
+.LH5:hover + .list5 {
+  height: inherit;
+  display: block;
+  font-size: 1em;
 }
 
 img{
