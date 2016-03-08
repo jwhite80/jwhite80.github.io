@@ -143,7 +143,7 @@ figcaption {
 /* First Frame  */
 .fig1 figcaption {
   opacity: 1;
-  bottom: -38px;
+  bottom: -50px;
   width: 362px;
   transition: all 1s;
 }
@@ -157,7 +157,7 @@ figcaption {
 /* First Frame  */
 .fig2 figcaption {
   opacity: 1;
-  bottom: -56px;
+  bottom: -80px;
   width: 360px;
   transition: all 1s;
 }
@@ -171,7 +171,7 @@ figcaption {
 /* First Frame  */
 .fig3 figcaption {
   opacity: 1;
-  bottom: -74px;
+  bottom: -100px;
   width: 160px;
   transition: all 1s;
 }
