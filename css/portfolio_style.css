@@ -10,6 +10,12 @@ body{
   text-align: center;
 }
 
+/* CSS for the main navigation */
+.MainNav li {
+  display: inline;
+  padding-right: 10px;
+  font-size: 1.25em;
+}
 
 /* PORTFOLIO STYLING */
 .fig1 {
