@@ -22,6 +22,18 @@ p, figcaption {
   font-size: 1.25em;
 }
 
+.onHomePage {
+	color: #864446;
+}
+
+.onBioAndResumePage {
+	color: #864446;
+}
+
+.onPortfolioPage {
+	color: #864446;
+}
+
 ul {
 /*  remove the dots in the list  */
   list-style: none;
@@ -106,7 +118,7 @@ a:hover {
 
 /* PORTFOLIO STYLING */
 .fig1 {
-  background: orange;
+  background: #1A2332;
   height: 121px;
   position: relative;
   overflow: hidden;
@@ -114,7 +126,7 @@ a:hover {
   display: inline-block;
 }
 .fig2 {
-  background: orange;
+  background: #1A2332;
   height: 300px;
   position: relative;
   overflow: hidden;
@@ -123,7 +135,7 @@ a:hover {
 }
 
 .fig3 {
-  background: orange;
+  background: #1A2332;
   height: 286px;
   position: relative;
   overflow: hidden;
