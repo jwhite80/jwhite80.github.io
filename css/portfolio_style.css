@@ -16,6 +16,16 @@ body{
   padding-right: 10px;
   font-size: 1.25em;
 }
+ul {
+/*  remove the dots in the list  */
+  list-style: none;
+/*  Center list items by removing the indent  */
+  padding-left: 10%;
+  padding-right: 10%;
+  display: inline-block;
+/*   padding-top: -50px; */
+  
+}
 
 /* PORTFOLIO STYLING */
 .fig1 {
