@@ -132,7 +132,8 @@ a:hover {
 }
 
 figcaption {
-  background: green;
+  background: #864446;
+  color: #CB9650;
   bottom: 0;
   padding: 10px;
   position: absolute;
