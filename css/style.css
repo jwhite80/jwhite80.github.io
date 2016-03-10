@@ -193,4 +193,80 @@ figcaption {
   bottom: 0;
   opacity: 1;
 }
+/* Overlay off */
+.overlay {  
+    /* stretch to fill any size     */
+    width: 0px;
+    height: 0px;
+  
+    /* hide temporarily   */
+    position: fixed;
+    overflow: hidden;
+    z-index: -1;
+
+    /* transitions     */
+    transition: background 0.3s;
+  
+    /* Center Content     */
+  text-align: center;
+}
+
+.overlay a {
+	color: #CB9650;
+}
+
+/* Overlay On */
+.overlay:target {
+    background: rgba(26, 35, 50, .9);
+  
+    /* stretch to fill any size     */
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;    
+  
+    /* position on top of everything     */
+    z-index: 1;
+}
+
+/* Overlayed Full Size Image */
+.overlay:target img {
+  box-shadow: 0 0 20px #333;
+  
+  margin-top: 2%;
+  max-width: 80%;
+  max-height: 80%;
+  /* apply animation   */
+  animation: scaleUp 0.3s;
+}
+
+/* Keyframe Animation */
+@keyframes scaleUp {
+  0% { 
+	transform: scale(0); 
+	}
+
+  100% { 
+	transform: scale(1); 
+	}
+}
+
 /* PORTFOLIO STYLING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
