@@ -163,7 +163,7 @@ figcaption {
 
 /* First Frame  */
 .fig1 figcaption {
-  bottom: -44px;
+  bottom: -60px;
   width: 362px;
   transition: all 1s;
 }
@@ -176,7 +176,7 @@ figcaption {
 /* First Frame  */
 .fig2 figcaption,
 .fig4 figcaption {
-  bottom: -44px;
+  bottom: -60px;
   width: 360px;
   transition: all 1s;
 }
@@ -189,7 +189,7 @@ figcaption {
 
 /* First Frame  */
 .fig3 figcaption {
-  bottom: -88px;
+  bottom: -100px;
   width: 182px;
   transition: all 1s;
 }
@@ -200,7 +200,7 @@ figcaption {
 }
 /* First Frame */
 .fig5 figcaption {
-  bottom: -44px;
+  bottom: -60px;
   width: 256px;
   transition: all 1s;
 }
