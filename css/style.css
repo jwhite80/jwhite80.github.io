@@ -147,7 +147,7 @@ figcaption {
   background: #864446;
   color: #CB9650;
   bottom: 0;
-  padding: 10px;
+  
   position: absolute;
   width: 280px;
 }
@@ -155,7 +155,7 @@ figcaption {
 /* First Frame  */
 .fig1 figcaption {
   opacity: 1;
-  bottom: -50px;
+  bottom: -40px;
   width: 362px;
   transition: all 1s;
 }
@@ -170,7 +170,7 @@ figcaption {
 .fig2 figcaption,
 .fig4 figcaption {
   opacity: 1;
-  bottom: -80px;
+  bottom: -70px;
   width: 360px;
   transition: all 1s;
 }
@@ -185,8 +185,8 @@ figcaption {
 /* First Frame  */
 .fig3 figcaption {
   opacity: 1;
-  bottom: -100px;
-  width: 165px;
+  bottom: -90px;
+  width: 182px;
   transition: all 1s;
 }
 
