@@ -125,7 +125,7 @@ a:hover {
   width: 362px;
   display: inline-block;
 }
-.fig2 {
+.fig2, .fig4 {
   background: #1A2332;
   height: 300px;
   position: relative;
@@ -167,7 +167,8 @@ figcaption {
 }
 
 /* First Frame  */
-.fig2 figcaption {
+.fig2 figcaption,
+.fig4 figcaption {
   opacity: 1;
   bottom: -80px;
   width: 360px;
@@ -175,7 +176,8 @@ figcaption {
 }
 
 /* Last Frame */
-.fig2:hover figcaption {
+.fig2:hover figcaption,
+.fig4:hover figcaption {
   bottom: 0;
   opacity: 1;
 }
