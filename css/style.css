@@ -45,13 +45,13 @@ ul {
   
 }
 
-.LH1, .LH2, .LH3, .LH4, .LH5 {
+.LH1, .LH2, .LH3, .LH4, .LH5, .LH6 {
   color: #864446;
   font-size: 1.5em;
   width: 100%;
 }
 
-.list1, .list2, .list3, .list4, .list5 {
+.list1, .list2, .list3, .list4, .list5, .list6 {
 /* .LH2 + .list2 { */
   position: relative;
   padding-bottom: 5px;
@@ -64,7 +64,8 @@ ul {
 .LH2:hover + .list2,
 .LH3:hover + .list3,
 .LH4:hover + .list4,
-.LH5:hover + .list5 {
+.LH5:hover + .list5,
+.LH6:hover + .list6 {
   height: inherit;
   display: block;
   font-size: 1em;
