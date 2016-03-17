@@ -143,19 +143,26 @@ a:hover {
   display: inline-block;
 }
 
+.fig5 {
+  background: #1A2332;
+  height: 192px;
+  position: relative;
+  overflow: hidden;
+  width: 256px;
+  display: inline-block;
+}
+
 figcaption {
   background: #864446;
   color: #CB9650;
   bottom: 0;
-  
   position: absolute;
   width: 280px;
 }
 
 /* First Frame  */
 .fig1 figcaption {
-  opacity: 1;
-  bottom: -22px;
+  bottom: -44px;
   width: 362px;
   transition: all 1s;
 }
@@ -163,13 +170,11 @@ figcaption {
 /* Last Frame */
 .fig1:hover figcaption {
   bottom: 0;
-  opacity: 1;
 }
 
 /* First Frame  */
 .fig2 figcaption,
 .fig4 figcaption {
-  opacity: 1;
   bottom: -44px;
   width: 360px;
   transition: all 1s;
@@ -179,13 +184,11 @@ figcaption {
 .fig2:hover figcaption,
 .fig4:hover figcaption {
   bottom: 0;
-  opacity: 1;
 }
 
 /* First Frame  */
 .fig3 figcaption {
-  opacity: 1;
-  bottom: -66px;
+  bottom: -88px;
   width: 182px;
   transition: all 1s;
 }
@@ -193,8 +196,19 @@ figcaption {
 /* Last Frame */
 .fig3:hover figcaption {
   bottom: 0;
-  opacity: 1;
 }
+/* First Frame */
+.fig5 figcaption {
+  bottom: -44px;
+  width: 256px;
+  transition: all 1s;
+}
+
+/* Last Frame */
+.fig5:hover figcaption {
+  bottom: 0;
+}
+
 /* Overlay off */
 .overlay {  
     /* stretch to fill any size     */
