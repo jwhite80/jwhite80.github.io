@@ -94,6 +94,7 @@ nav a {
   color: #CB9650;
   text-transform: none;
   text-decoration: underline;
+  padding-right: 100px;
   transition: all 0.5s;
 }
 
