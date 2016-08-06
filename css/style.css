@@ -11,7 +11,7 @@ body{
   text-align: center;
 }
 
-p, figcaption, .FooterLink {
+p, figcaption {
   color: #CB9650;
 }
 
@@ -84,6 +84,13 @@ h1, h2 {
 
 /* Navigation */
 nav a {
+  color: #CB9650;
+  text-transform: none;
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+.FooterLink a {
   color: #CB9650;
   text-transform: none;
   text-decoration: underline;
