@@ -38,13 +38,13 @@ ul {
 /*  remove the dots in the list  */
   list-style: none;
 /*  Center list items by removing the indent  */
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
   display: block;
 /*   padding-top: -50px; */
 	
-	word-wrap: normal;
-	white-space: nowrap;
+  word-wrap: normal;
+  white-space: nowrap;
 }
 
 .LH1, .LH2, .LH3, .LH4, .LH5, .LH6 {
@@ -69,7 +69,7 @@ ul {
 .LH5:hover + .list5,
 .LH6:hover + .list6 {
   height: inherit;
-  display: inline-block;
+  display: inherit;
   font-size: 1em;
 }
 
