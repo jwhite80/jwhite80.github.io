@@ -67,7 +67,7 @@ ul {
 .LH5:hover + .list5,
 .LH6:hover + .list6 {
   height: inherit;
-  display: block;
+  display: inline-block;
   font-size: 1em;
 }
 
