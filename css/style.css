@@ -36,12 +36,15 @@ p, figcaption {
 
 ul {
 /*  remove the dots in the list  */
-  list-style: inside;
+  list-style: none;
 /*  Center list items by removing the indent  */
   padding-left: 10%;
   padding-right: 10%;
   display: block;
 /*   padding-top: -50px; */
+	
+  /*TESTING*/
+  word-wrap: normal;
   
 }
 
