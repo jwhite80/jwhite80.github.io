@@ -44,6 +44,7 @@ ul {
 /*   padding-top: -50px; */
 	
 	word-wrap: normal;
+	white-space:normal;
 }
 
 .LH1, .LH2, .LH3, .LH4, .LH5, .LH6 {
