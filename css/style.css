@@ -36,7 +36,7 @@ p, figcaption {
 
 ul {
 /*  remove the dots in the list  */
-  /*list-style: none;*/
+  list-style: inside;
 /*  Center list items by removing the indent  */
   padding-left: 10%;
   padding-right: 10%;
