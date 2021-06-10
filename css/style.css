@@ -40,11 +40,9 @@ ul {
 /*  Center list items by removing the indent  */
   padding-left: 10%;
   padding-right: 10%;
-  display: block;
+  display: inline-block;
 /*   padding-top: -50px; */
-	
-  word-wrap: normal;
-  white-space: nowrap;
+  
 }
 
 .LH1, .LH2, .LH3, .LH4, .LH5, .LH6 {
@@ -281,19 +279,3 @@ figcaption {
 }
 
 /* PORTFOLIO STYLING */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
