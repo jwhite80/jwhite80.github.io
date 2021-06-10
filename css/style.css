@@ -38,14 +38,10 @@ ul {
 /*  remove the dots in the list  */
   list-style: none;
 /*  Center list items by removing the indent  */
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
   display: block;
 /*   padding-top: -50px; */
-	
-  /*TESTING*/
-  word-wrap: normal;
-  
 }
 
 .LH1, .LH2, .LH3, .LH4, .LH5, .LH6 {
